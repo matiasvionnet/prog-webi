@@ -1,13 +1,73 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!--Para arrancar un proyecto escribir html y seleccionar la opcion html 5-->
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Como formatear una PC</title>
+    <link rel="stylesheet" href="/CSS/styles.css">
 </head>
 <body>
-    <h1>Hola!!!!</h1>
-    <P>Anashei</P>
-    <img src="IMG/coscu.jpg" alt="">
+    <h1>Como formatear un PC</h1>
+    <hr>
+    <h2>ADVERTENCIA!</h2>
+    <p>
+        Es super necesario saber que cuando formateas una PC todos los datos almacenados, aplicaciones y configuraciones seran borradas, asi que te recomiendo que hagas
+        un backup de todo lo que te interesa no perder primero en un disco externo antes de comenzar. :D
+    </p>
+    <hr>
+    <p>
+        Para formatear un pc lo primero que tenemos que hacer es conseguir un pendrive que no contenga informacion valiosa para nosotros, 
+        si no es posible entonces debemos hacer un backup de esa unidad y dejarla vacia para luego descargar una imagen del sistema operativo que deseamos instalar,
+        por ejemplo Windows.
+        Debemos primero buscar la pagina oficial de microsoft y buscar la seccion que se llama "Crear el soporte fisico de instalacion de windows".
+    </p>
+    <a href="https://www.microsoft.com/es-mx/software-download/windows11" target="_blank">Tambien podes hacer click aca!</a>
+    <p>
+        Una vez descargado el archivo denemos tomar nuestro pendrive y darle un formato "fat32" para que el mismo pueda instalar el sistema operativo en nuestro PC y
+        lo haremos de la siguiente forma:
+    </p>
+    <ul>
+        <li>Buscamos nuestro pendrive (En este caso "ESD-USB") y le hacemos click derecho</li>
+        <img src="IMG/Paso 1.png" alt="" width="560" height="316">
+        <li>Luego buscamos la opcion "Formatear"</li>
+        <li>Finalmente seleccionamos la opcion "Sistema de archivos" y buscamos la opcion "Fat32"</li>
+        <img src="IMG/Paso 2.png" alt="">
+        <li>Ahora iniciamos la ejecucion y esperamos, el sistema nos avisara que perderemos todos los datos de la unidad, como ya sabiamos esto le damos a aceptar.</li>
+    </ul>
+    <p>
+        Para el siguiente paso debemos buscar el archivo que descargamos desde la pagina oficial de microsoft y debemos ejecutarlo haciendole doble click al mismo.
+        Nos preguntara si aceptamos los terminos de licencia de distribucion, aceptamos los mismos y luego nos dara la opcion de seleccionar el tipo de windows que vamos
+        a instalar y el idioma del mismo, ahi deben de chequear sus preferencias y la licencia con la que cuenten ustedes.
+    </p>
+    <img src="IMG/Paso 4.png" alt="">
+    <p>
+        Ahora debemos seleccionar en donde vamos a instalar la imagen de windows, ahi es donde seleccionamos el pendrive que formateamos previamente.
+    </p>
+    <img src="IMG/Paso 5.png" alt="">
+    <p>
+        Aceptamos y ahora solo nos queda esperar a que se termine de ejecutar el programa, puede llevar su tiempo pero no es necesario que dejes de utilizar tu PC para
+        que la instalacion se complete, la podes usar libremente.
+        Una vez que tenemos listo nuestro pendrive para poder instalarle a cualquier computadora la imagen de windows! Ahora la parte mas sencilla.
+        Debemos conectar el pendrive a la PC en la que querramos instalar el nuevo windows (si es la misma PC en la que formateaste el pendrive entonces no lo saques).
+        Reiniciamos la PC y empezamos a apretar repetidamente el boton que nos lleve a la "BIOS", suele ser "DEL" o "F12", pero varia segun la placa madre que tengas.
+        En todo caso no te desesperes y fijate que cuando la PC empieza a encender aparece la imagen del proveedor de tu placa madre en pantalla y abajo dice los botones
+        que podes presionar para entrar a la "BIOS", asi que si necesitas varios intentos no te desesperes.
+        Una vez entramos a la "BIOS" los nombres de las opciones varian por lo mismo que explique recien, cada proveedor tiene nombres distintos y formas diferentes de 
+        acceder a las funciones que tienen. Por lo general la opcion que buscamos es la de "Boot menu" o "Boot options", puede tener otro nombre similar.
+    </p>
+    <img src="https://serverspace.io/wp-content/uploads/2025/02/asus.png" alt="" width="560" height="316">
+    <p>
+        Ahora debemos poner como prioridad el pendrive que formateamos previamente y le instalamos la imagen de windows. Reiniciamos y nos encontraremos con el instalador
+        de windows, ahora nos va a pedir que seleccionemos nuestro idioma, el idioma de nuestro teclado, luego seleccionamos la opcion "Instalar windows" y clickeamos
+        en la casilla que nos avisa que somos conscientes de que se eliminaran todos los archivos del disco.
+        Este es el momento en el que el instalador nos pide nuestro codigo del producto que estamos instalando en nuestra PC, si lo tenemos lo cargamos y continuamos
+        de lo contrario podemos seleccionar la opcion que dice "No tengo una clave de producto" y continuamos.
+    </p>
+    <img src="IMG/Paso 7.png" alt="">
+    <p>
+        Ahora seleccionamos la version de windows que queremos instalar, y borramos todas las particiones que aparecen en el disco que utilizamos para arrancar nuestra PC
+        Luego podemos seleccionar el disco y continuar, ahora debemos simplemente esperar a que la instalacion termine.
+        Y listo! con esto ya tenemos windows instalado, lo unico que hace falta ahora es que lo configures a tu gusto.
+    </p>
 </body>
 </html>
